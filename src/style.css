@@ -93,3 +93,97 @@ body {
 }
 
 
+/*CSS pour un bouton plus petit*/
+
+/*
+
+
+  .button-cover,
+.knobs,
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.input {
+  position: relative;
+  width: 30px;
+  height: 15px;
+  overflow: hidden;
+}
+
+.input.r,
+.input.r .layer {
+  border-radius: 100px;
+}
+
+.input.b2 {
+  border-radius: 2px;
+}
+
+.check {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.knobs {
+ z-index: 2;
+}
+
+.layer {
+  width: 100%;
+  background-color: #ccc; //fond à gauche
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+// Button 1 
+#button-1 .knobs:before {
+  content: "";
+  color: #ccc;
+  position: absolute;
+  top: 2.85px;
+  left: 3px;
+  width: 5px;
+  height: 1px;
+  font-size: 4px;
+  font-weight: bold;
+  text-align: center;
+  padding: 4.5px 2px;
+  background-color:  white; //rond à gauche
+  border-radius: 50%;
+  transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-1 .check:checked + .knobs:before {
+  content: "";
+  color:#66B032;
+  left: 18px;
+  background-color: white; //rond à droite
+}
+
+#button-1 .check:checked ~ .layer {
+  background-color: #40e29c; //fond à droite
+}
+
+#button-1 .knobs,
+#button-1 .knobs:before,
+#button-1 .layer {
+  transition: .3s ease all;
+}
+  
+
+
+
+
+
+*/
